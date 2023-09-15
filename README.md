@@ -8,12 +8,12 @@ Obj: se familiariser avec la syntaxe js: déclaration/manipulation des primitifs
     
 ### Recherche à faire
 * variables: const/let/var, primitifs, array, object...
-* condition if - else
 * Portée des variables
+* condition if - else
     
 ### Résultat attendu:  
 * Déclaration, initialisation et protée des variables avec const/let, type undefined
-* Déclaraion/comparaison des nombres
+* Déclaraion/comparaison des primitifs
 * Limite du type number
 * Déclaration des strings avec "", '', ``
 * Manipulation des strings comme tableau
@@ -24,3 +24,22 @@ Obj: se familiariser avec la syntaxe js: déclaration/manipulation des primitifs
 * Accès à un élément de l'objet (clé statique ou variable)
 * Accès à un élément non existant de l'objet
 * Création d'un objet avec une clé dynamique
+* Opérateur ===, !==, ! (vs ==, !=)
+
+## J2 - Base: fonction, array, object
+Obj: se familiariser avec la manipulation des données (tableaux et objets)  
+
+
+* parcours d'un tableau et d'un objet
+* Manipuler un tableau: push, sort
+* Manipuler un tableau d'objet
+* fonction: les différents syntaxes de déclaration d'une fonction,
+* les callbacks
+* passage par valeur/référence
+* Programation évènementiel - asyncrhone avec setTimeout/setInterval
+
+### Recherche à faire
+* array: .map, .filter, .sort, ...
+* aggrégation avec reduce
+* programation asyncrhone: les promises
+* Gestion des erreurs + programmation défensive
