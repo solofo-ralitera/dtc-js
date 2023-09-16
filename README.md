@@ -1,4 +1,4 @@
-## Formation angular - DTC Juin-Août 2023
+## Formation angular - DTC Septembre 2023
 
 
 ## J1 - Intro - Base
