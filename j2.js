@@ -7,11 +7,19 @@
     null
 */
 
-const firstName = "Solofo";
+const firstName = 'Solofo';
 // firstName = "New firstname"; // erreur, car changement de référence
 
-let lastName = "Slf";
-lastName = "New last name";
+let lastName = 'Slf';
+lastName = 'New last name';
+
+// const adresse = 'Lalan\'i Solofo';
+// const adresse = "Lalan'i Solofo";
+
+// Template literals
+const greeting = `
+    Hello ${firstName}
+`;
 
 /**
  * Les tableaux
