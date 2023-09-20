@@ -41,5 +41,21 @@ Obj: se familiariser avec la manipulation des données (tableaux et objets)
 ### Recherche à faire
 * array: .map, .filter, .sort, ...
 * aggrégation avec reduce
-* programation asyncrhone: les promises
+* programation asynchrone: les promises
 * Gestion des erreurs + programmation défensive
+
+## J3 - Data
+Obj: manipuler les données {} et []  
+
+> **_NOTE:_**  image mapmind from [https://gogeometry.com/software/javascript/javascript-language-mind-map.jpg](https://gogeometry.com/software/javascript/javascript-language-mind-map.jpg)
+
+
+* Reccap asynchrone setTimeout/setInterval
+* Reccap des méthodes []: map, filter, reduce
+* Extration de quelques données
+
+### Recherche et travail à faire
+* Lire le contenu des fichiers data/sales_100.json, titanic.csv, nba.csv avec fetch, fs (node) ou autres méthodes
+* extraire des informations, statistiques, kpi... à partir des info reccupérer  
+Afficher les résultats via console ou html
+* Utiliser [chart.js](https://www.chartjs.org/) pour afficher les données extraites
