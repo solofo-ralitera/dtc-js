@@ -51,11 +51,13 @@ Obj: manipuler les données {} et []
 
 
 * Reccap asynchrone setTimeout/setInterval
+* Promise
 * Reccap des méthodes []: map, filter, reduce
 * Extration de quelques données
+* Date
 
 ### Recherche et travail à faire
 * Lire le contenu des fichiers data/sales_100.json, titanic.csv, nba.csv avec fetch, fs (node) ou autres méthodes
-* extraire des informations, statistiques, kpi... à partir des info reccupérer  
+* extraire des informations, statistiques, kpi... à partir des infos reccupérées
 Afficher les résultats via console ou html
 * Utiliser [chart.js](https://www.chartjs.org/) pour afficher les données extraites
