@@ -25,7 +25,7 @@ const greeting = `
  * Les tableaux
  */
 // Déclaration tableau
-// const ingredients = ["Rano", "Sira"];
+// const ingredients = new Array("Rano", "Sira");
 const ingredients = ["Rano", "Sira"];
 ingredients.push(`Siramamy ${lastName}`);
 ingredients[7] = undefined;
@@ -52,14 +52,14 @@ while(i < ingredients.length) {
 }
 */
 
-/*
+
 // foreach + callback
 const forEachCallBack = (element, index, initialArray) => {
     console.log(index, ' => ', element, initialArray);
     return 1;
 }
 ingredients.forEach(forEachCallBack);
-*/
+
 
 /*
 // do while, (peu utilisé)
