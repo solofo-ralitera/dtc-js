@@ -53,7 +53,7 @@ Obj: manipuler les données {} et []
 * Reccap asynchrone setTimeout/setInterval
 * Promise
 * Reccap des méthodes []: map, filter, reduce
-* Extration de quelques données
+* Extraction de quelques données
 * Date
 
 ### Recherche et travail à faire
@@ -61,3 +61,16 @@ Obj: manipuler les données {} et []
 * extraire des informations, statistiques, kpi... à partir des infos reccupérées
 Afficher les résultats via console ou html
 * Utiliser [chart.js](https://www.chartjs.org/) pour afficher les données extraites
+
+## J4 - Data + Asynchrone
+Obj: manipuler les données {} et []
+
+* Suite Promise: tâches parallèles
+* async/await: plus tard
+* Structuration du code avec les objets et classe
+* API http avec fetch, ex [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
+* Si temps: suite extraction de données
+
+### TAF
+* Suite J3
+* Utiliser l'api unsplash pour créer un app d'images
