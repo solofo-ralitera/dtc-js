@@ -65,6 +65,7 @@ Afficher les résultats via console ou html
 ## J4 - Data + Asynchrone
 Obj: manipuler les données {} et []
 
+* Developper tools
 * Suite Promise: tâches parallèles
 * async/await: plus tard
 * Structuration du code avec les objets et classe

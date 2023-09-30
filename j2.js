@@ -55,7 +55,7 @@ while(i < ingredients.length) {
 
 // foreach + callback
 const forEachCallBack = (element, index, initialArray) => {
-    console.log(index, ' => ', element, initialArray);
+    // console.log(index, ' => ', element, initialArray);
     return 1;
 }
 ingredients.forEach(forEachCallBack);
@@ -139,7 +139,9 @@ const o3 = {name: 1};
 /**
  * les fonctions
  */
-const mandritraRano1 = function(quantitéRano) {
+const mandritraRano1 = (quantitéRano) => {
+    const a = "test";
+    console.log(this);
     // ... implémenter la logique de la fonction
     return quantitéRano;
 }
@@ -151,7 +153,8 @@ function mandritraRano2(mandritraRano1) {
 const mandritraRano3 = (mandritraRano1) => {
     return mandritraRano1;
 }
+mandritraRano1();
 
-console.log(mandritraRano1); // Référence à la fonction (adresse), utile pour le passage des callbacks
-console.log(mandritraRano1(100)); // Execution de la fonction et renvoie la valeur de retour de la fonction
+// console.log(mandritraRano1); // Référence à la fonction (adresse), utile pour le passage des callbacks
+// console.log(mandritraRano1(100)); // Execution de la fonction et renvoie la valeur de retour de la fonction
 
