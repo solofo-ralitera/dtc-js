@@ -63,7 +63,7 @@ Afficher les résultats via console ou html
 * Utiliser [chart.js](https://www.chartjs.org/) pour afficher les données extraites
 
 ## J4 - Data + Asynchrone
-Obj: manipuler les données {} et []
+Obj: manipuler les données {} et [] + structure code
 
 * Developper tools
 * Suite Promise: tâches parallèles
@@ -75,3 +75,14 @@ Obj: manipuler les données {} et []
 ### TAF
 * Suite J3
 * Utiliser l'api unsplash pour créer un app d'images
+
+## J5 - App/Api + Asyncrhone
+Obj: création d'une app + api
+
+* Question data [] et {} + Demo / présentation
+* Suite Promise (.all)
+* module: import/export + exemple restructuration
+* custom elements
+
+### TAF
+* Suite app/api + module et custom elements
