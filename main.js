@@ -1,4 +1,8 @@
-const getData = (obj) => {
+import Sale, {startNum} from "./sale.js";
+import { MyButton } from "./MyButton.js";
+export const Counter = 0;
+
+const getData = () => {
     fetch('./data/sales_100.json')
     .then(res => res.json())
     .then(data => {
@@ -10,7 +14,7 @@ const getData = (obj) => {
         return globalSales
     })
     .then(amounts => {
-        // console.log(amounts);
+        console.log(amounts);
     })
 }
 
@@ -18,15 +22,9 @@ const getData = (obj) => {
 // const mySet = new Set();
 // console.log(mySet);
 
-const myFunc = (a, b, c) => {
-    console.log(a, b, c);
-}
-
-
-const monNOme = '';
-
-myFunc(monNOme);
-
+document.getElementById('getData-btn')?.addEventListener('click', () => {
+    getData();
+})
 
 
 

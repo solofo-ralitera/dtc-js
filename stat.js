@@ -1,5 +1,6 @@
 const Stat = {
-    getCountries: (datasource) => {
+    getCountries(datasource) {
+
         console.log(datasource);
         return Array.from(new Set(datasource.map(sale => {
             return sale.country;
@@ -7,8 +8,8 @@ const Stat = {
     },
 
 
-    getUnitSold: (datasource) => {
-        // this.getCountries([]);
+    getUnitSold(datasource) {
+        this.getCountries([]);
         // console.log(self);
     },
 };
