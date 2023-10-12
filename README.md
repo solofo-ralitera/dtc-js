@@ -86,3 +86,21 @@ Obj: création d'une app + api
 
 ### TAF
 * Suite app/api + module et custom elements
+
+## J6 - Module/Custom elements
+Obj: maitrise module et custom elements
+
+* LC
+    * components, service (fetch data)
+    * LC Header + login + profil
+    * Interaciton entre composants
+        * Attribut, innerHTML, set
+        * event output
+        * partage de données: cas EventBus, singleton
+* Tips sur les class: attribut (!!), # (!!), static, get/set, toString
+* Suite front: lib/fw
+* Intro backend: ssr, api
+
+### TAF
+* Suite app front
+* 
