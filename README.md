@@ -88,7 +88,7 @@ Obj: création d'une app + api
 * Suite app/api + module et custom elements
 
 ## J6 - Module/Custom elements
-Obj: maitrise module et custom elements
+Obj: module, custom elements + séparation logique
 
 * LC
     * Header + login + profil + deconnexion
