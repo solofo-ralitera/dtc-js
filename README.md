@@ -91,8 +91,8 @@ Obj: création d'une app + api
 Obj: maitrise module et custom elements
 
 * LC
+    * Header + login + profil + deconnexion
     * components, service (fetch data)
-    * LC Header + login + profil
     * Interaciton entre composants
         * Attribut, innerHTML, set
         * event output
@@ -103,4 +103,4 @@ Obj: maitrise module et custom elements
 
 ### TAF
 * Suite app front
-* 
+* Intro backend
