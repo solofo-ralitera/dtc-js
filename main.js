@@ -1,5 +1,10 @@
 import Sale, {startNum} from "./sale.js";
 import { MyButton } from "./MyButton.js";
+import { HeaderComponent } from "./components/Header.js";
+import { LoginFormComponent } from "./components/LoginForm.js";
+import { UserProfilComponent } from "./components/UserProfil.js";
+
+
 export const Counter = 0;
 
 const getData = () => {
@@ -26,6 +31,9 @@ document.getElementById('getData-btn')?.addEventListener('click', () => {
     getData();
 })
 
+document.getElementById('app-login')?.addEventListener('logged', (evt) => {
+    console.log(evt);
+})
 
 
 
