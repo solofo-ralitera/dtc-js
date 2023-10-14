@@ -13,7 +13,7 @@ export class HeaderComponent extends HTMLElement {
     }
 
     renderDisconnect(container) {
-        if(!connectedUser.isConnected()) return;
+        if(!authService.isConnected()) return;
         const btn = document.createElement('button');
         btn.innerHTML = 'Disconnect';
         btn.addEventListener('click', () => {

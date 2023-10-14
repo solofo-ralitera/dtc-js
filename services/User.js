@@ -20,9 +20,9 @@ export class User {
         this._lastname = lastname;
     }
 
-    constructor({firstname, lastname}) {
-        this._firstname = firstname;
-        this._lastname = lastname;
+    constructor({firstname, lastname} = {}) {
+        this._firstname = firstname ?? '';
+        this._lastname = lastname ?? '';
     }
 
     setUser(user) {
@@ -30,16 +30,12 @@ export class User {
         this.lastname = user.lastname;
         return this;
     }
-
-    isConnected() {
-        return this.firstname !== '' || this.lastname !== '';
-    }
     
 }
 
 export const connectedUser = new class extends User {
-    constructor({firstname, lastname}) {
-        super({firstname, lastname});
+    constructor() {
+        super();
     }
     
     setUser(user) {
@@ -47,7 +43,4 @@ export const connectedUser = new class extends User {
         eventBus.fire('connectedUserChanged', this);
         return this;
     }   
-}({
-    firstname: '',
-    lastname: '',
-});
+};

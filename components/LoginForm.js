@@ -21,11 +21,11 @@ export class LoginFormComponent extends HTMLElement {
     }
 
     render() {
-        if (connectedUser.isConnected()) {
+        if (authService.isConnected()) {
             this.root.innerHTML = '';
             return;
         }
-        this.root.innerHTML = `<div>
+        this.root.innerHTML = `<div style="display: inline-block; border: 1px solid black;padding: 2em;">
             <input type="firstname" palceholder="firstname" id="firstname" value="Rakoto">
             <br>
             <input type="lastname" palceholder="lastname" id="lastname" value="Be">

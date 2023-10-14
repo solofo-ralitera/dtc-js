@@ -13,6 +13,11 @@ export const authService = new class {
         })
     }
 
+
+    isConnected() {
+        return connectedUser.firstname || connectedUser.lastname;
+    }
+
     disconnect() {
         connectedUser.setUser({
             firstname: '',
