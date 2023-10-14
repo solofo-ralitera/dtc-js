@@ -31,8 +31,8 @@ document.getElementById('getData-btn')?.addEventListener('click', () => {
     getData();
 })
 
-document.getElementById('app-login')?.addEventListener('logged', (evt) => {
-    console.log(evt);
+document.getElementById('app-login')?.addEventListener('logged', ({detail}) => {
+    console.log('User logged', detail);
 })
 
 

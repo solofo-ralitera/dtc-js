@@ -17,7 +17,9 @@ export class LoginFormComponent extends HTMLElement {
         const lastname = this.root.querySelector('#lastname').value;
         authService.login({firstname, lastname})
             .then(user => {
-                console.log('User logged', user);
+                this.dispatchEvent(new CustomEvent('logged', {
+                    detail: user,
+                }))
             })
     }
 
@@ -27,9 +29,9 @@ export class LoginFormComponent extends HTMLElement {
             return;
         }
         this.root.innerHTML = `<div style="display: inline-block; border: 1px solid black;padding: 2em;">
-            <input type="firstname" palceholder="firstname" id="firstname" autofocus>
+            <input type="firstname" placeholder="firstname" id="firstname" autofocus>
             <br>
-            <input type="lastname" palceholder="lastname" id="lastname">
+            <input type="lastname" placeholder="lastname" id="lastname">
             <br>
             <button id="login-btn">Login</button>
         </div>`;
